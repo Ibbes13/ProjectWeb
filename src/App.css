@@ -1,0 +1,22 @@
+/* Anpassa hela kroppens utseende */
+body {
+  background-color: #f0f2f5; /* En ljusgrå bakgrund */
+  font-family: Arial, sans-serif; /* Ett rent och tydligt typsnitt */
+  margin: 0;
+  padding: 0;
+}
+
+/* Centrera innehållet */
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Centrerar horisontellt */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling för din huvudrubrik */
+h1 {
+  color: #333; /* Mörkgrå textfärg */
+  font-size: 2.5rem; /* Större textstorlek */
+  margin-top: 50px; /* Lägg till lite utrymme ovanför */
+}
