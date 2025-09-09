@@ -1,3 +1,5 @@
+/* src/App.css */
+
 /* Anpassa hela kroppens utseende */
 body {
   background-color: #f0f2f5; /* En ljusgrå bakgrund */
@@ -19,4 +21,49 @@ h1 {
   color: #333; /* Mörkgrå textfärg */
   font-size: 2.5rem; /* Större textstorlek */
   margin-top: 50px; /* Lägg till lite utrymme ovanför */
+}
+
+/* * Här börjar den nya stylingen för navigeringsmenyn 
+ * Du kan lägga till dessa stilar direkt efter din befintliga kod
+ */
+
+/* Stil för navigeringsmenyn */
+nav {
+  background-color: black;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex; /* Använd flexbox för att placera rubrik och länkar sida vid sida */
+  justify-content: space-between; /* Sprider ut innehållet */
+  align-items: center;
+}
+
+nav h1 {
+  color: white;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007bff; /* En ljusblå färg vid hovring */
 }
