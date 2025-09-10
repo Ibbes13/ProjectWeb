@@ -1,9 +1,21 @@
-/* src/pages/HomePage.css */
+/* Gör all text svart på sidan */
+.home-container {
+  color: black;
+}
 
-.intro-text {
-    color: black;
-  }
-  
-  .sub-title {
-    color: black;
-  }
+/* Stilar för att markera programmeringsspråken */
+.expertise-list li {
+  font-weight: normal; /* Återställer standardvikt */
+  color: black; /* Säkerställer att texten är svart som standard */
+}
+
+/* Gör texten "Programmeringsspråk X" lite tjockare */
+.expertise-list li strong {
+  font-weight: bold; /* Gör texten fet */
+}
+
+/* Färgkoda de specifika språken till rött */
+.expertise-list li span.highlight-lang {
+  color: red;
+  font-weight: bold; /* Kan läggas till för extra synlighet */
+}
