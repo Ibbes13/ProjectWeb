@@ -15,10 +15,10 @@ const ProjectsPage = () => {
           <a href="https://github.com/Ibbes13/IOT_ESP32_AWS_v2" target="_blank" rel="noopener noreferrer" className="github-link">Se på GitHub</a>
         </li>
         <li className="project-item">
-          <h3>[Projektets namn #2]</h3>
-          <p>[En kort och tydlig beskrivning av vad projektet gör, t.ex. "Ett skript i Python för dataanalys."]</p>
-          <p><strong>Teknologier:</strong> [Lista de tekniker du använde, t.ex. Python, Pandas, Matplotlib]</p>
-          <a href="[Länk till ditt GitHub-repo]" target="_blank" rel="noopener noreferrer" className="github-link">Se på GitHub</a>
+          <h3>Java-baserat chattprogram</h3>
+          <p>Ett klient/server-baserat chattprogram utvecklat i Java. Applikationen använder nätverksprotokollet Multicast för att möjliggöra realtidschatt mellan flera användare i ett lokalt nätverk. Projektet visar kunskaper inom nätverksprogrammering, multitrådning och UDP-kommunikation.</p>
+          <p><strong>Teknologier:</strong> Java, Multicast, UDP-Sockets, Multitrådning</p>
+          <a href="https://github.com/Ibbes13/Chatroom-project" target="_blank" rel="noopener noreferrer" className="github-link">Se på GitHub</a>
         </li>
         <li className="project-item">
           <h3>[Projektets namn #3]</h3>
