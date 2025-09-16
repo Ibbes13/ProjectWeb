@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <nav>
+      <nav className="main-nav">
         <h1>Ibrahim</h1>
         <ul>
           <li><Link to="/">Hem</Link></li>

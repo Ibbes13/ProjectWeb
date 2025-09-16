@@ -1,3 +1,55 @@
+/* Container för hela sidan */
 .projects-container {
-  color: black;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto; /* Centrerar innehållet */
+}
+
+.projects-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Stil för listan med projekt */
+.project-list {
+  list-style-type: none; /* Tar bort standardpunkterna */
+  padding: 0;
+}
+
+/* Stil för varje enskilt projekt */
+.project-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px; /* Ger rundade hörn */
+  transition: box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lägger till en skugga vid hovring */
+}
+
+.project-item h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.project-item p {
+  line-height: 1.5;
+}
+
+/* Stil för GitHub-länken */
+.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.github-link:hover {
+  background-color: #555;
 }
